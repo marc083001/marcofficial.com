@@ -64,22 +64,22 @@ div[id^="ACT"] p {
   margin-bottom: 8px; 
 }
 #ACT1 {
-	 background: url('t.jpg') no-repeat center center fixed;
+	 background: url('pic/t.jpg') no-repeat center center fixed;
 }
 #ACT2 {
-	 background: url('t.jpg') no-repeat center center fixed;
+	 background: url('pic/t.jpg') no-repeat center center fixed;
 }
 #ACT3 {
-	 background: url('t.jpg') no-repeat center center fixed;
+	 background: url('pic/t.jpg') no-repeat center center fixed;
 }
 #ACT4 {
-   background: url('t.jpg') no-repeat center center fixed;
+   background: url('pic/t.jpg') no-repeat center center fixed;
   background-size: cover;
   color: black;
   padding: 20px;
 }
 #ACT5 {
-  background: url('t.jpg') no-repeat center center fixed;
+  background: url('pic/t.jpg') no-repeat center center fixed;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -87,7 +87,7 @@ div[id^="ACT"] p {
   padding: 20px;
 }
 #ACT6 {
-	 background: url('t.jpg') no-repeat center center fixed;
+	 background: url('pic/t.jpg') no-repeat center center fixed;
 }
 
 .hero-header {
