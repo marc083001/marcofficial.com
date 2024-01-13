@@ -1,0 +1,78 @@
+<DOCTYPE.!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+</head>
+<style>
+	body {
+            height: auto;
+            width: auto;
+            margin: auto;
+            flex-direction: column;
+            border: 4px solid #000;
+            padding: 40px;
+            background: url('t.jpg') center/cover; 
+            background-repeat: no-repeat;
+            font-size: 2.5rem;
+            
+        }
+
+        body label {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+            align-items: center;         
+        }
+</style>
+<body>
+	<button><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/index.html">BACK</a></button>
+		<h1><center>School Activity Survey Form</h1></center>
+<hr>
+
+<form>
+	<label for="fname">First Name:</label><br>
+		<input type="text" id="fname" name="fname"><br>
+
+	<label for="lname">Last Name:</label><br>
+		<input type="text" id="lname" name="lname"><br>
+
+	<label for="gender">Gender:</label><br>
+		<input type="radio" id="male" name="gender" value="male">
+	<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+ 	<label for="female">Female</label><br>
+
+	<label for="age">Age:</label><br>
+		<input type="text" id="age" name="age"><br>
+
+	<label for="email">Email:</label><br>
+		<input type="text" id="email" name="email"><br>
+
+	<label for="phone">Phone:</label><br>
+		<input type="text" id="phone" name="phone"><br>
+
+	<label for="city">City:</label><br>
+		<input type="text" id="city" name="city"><br>
+
+	<label for="country">Country:</label><br>
+		<select id="country" name="country"><br><br>
+			<option value="philippines">Philippines</option>
+			<option value="usa">USA</option>
+			<option value="canada">Canada</option>
+			<option value="others">Others</option>
+ </select><br>
+	<label for="interest">Interest:</label><br>
+		<input type="checkbox" id="art" name="interest" value="art">
+	<label for="art">Art</label><br>
+		<input type="checkbox" id="music" name="interest" value="music">
+	<label for="music">Music</label><br>
+		<input type="checkbox" id="sports" name="interest" value="sports">
+	<label for="sports">Sports</label><br>
+	
+	<label for="comments">Comments:</label><br>
+		<textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+		<input type="submit" value="Submit">
+</form>
+</body>
+</html>

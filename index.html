@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+</head>
+<body>
+
+<div class="hero-header">
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-m"></i>
+        <i class="fa-solid fa-a"></i>
+        <i class="fa-solid fa-r"></i>
+        <i class="fa-solid fa-c"></i>
+      </div>
+      <nav>
+        <div class="togglebtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="navlinks">
+          <li><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/act1.html">ACT1</a></li>
+          <li><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/act2.html">ACT2</a></li>
+          <li><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/act3.html">ACT3</a></li>
+          <li><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/act4.html">ACT4</a></li>
+          <li><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/act5.html">ACT5</a></li>
+          <li><a href="file:///C:/Users/marcj_c1n0zek/OneDrive/Desktop/Website/act6.html">ACT6</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="hero-pic">
+        <img src="mypic.jpg" alt="profile pic">
+      </div>
+      <div class="hero-text">
+        <h5>Hi, I'm <span class="input">Ampuyas, Marc Jay M. BSIT 2C</span></h5>
+        <h1>Welcome to My Personal Website!</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script>
+  var typed = new Typed(".input", {
+    strings: ["IT Student in Evsu", "A Student", "A Rider"],
+    typeSpeed: 70,
+    backSpeed: 55,
+    loop: true
+  });
+
+  var togglebtn = document.querySelector(".togglebtn");
+  var nav = document.querySelector(".navlinks");
+
+  togglebtn.addEventListener("click", function () {
+    this.classList.toggle("click"); 
+    nav.classList.toggle("open"); 
+  });
+
+  window.addEventListener("resize", function () {
+    if (window.innerWidth <= 930 && !togglebtn.classList.contains("click")) {
+      nav.classList.remove("open");
+    } else {
+      nav.classList.add("open");
+    }
+  });
+</script>
+
+</body>
+</html>
